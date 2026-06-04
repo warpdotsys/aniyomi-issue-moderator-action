@@ -28,7 +28,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Moderate issues
-        uses: yuzono/aniyomi-issue-moderator-action@v2
+        uses: warpdotsys/aniyomi-issue-moderator-action@v2
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
 ```

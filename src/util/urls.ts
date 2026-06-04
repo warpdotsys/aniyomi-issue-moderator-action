@@ -4,7 +4,7 @@ const EXCLUSION_LIST = [
   'github.com',
   'user-images.githubusercontent.com',
   'gist.github.com',
-  'yuzono.github.io',
+  'warpdotsys.github.io',
   'github.blog',
   'anikku-app.github.io',
 ];

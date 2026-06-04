@@ -54,7 +54,7 @@ describe('urlsFromIssueBody', () => {
           'foo https://github.com/tachiyomiorg/extensions/blob/master/README.md something', [],
           [],
         ],
-        ['foo https://yuzono.github.io/extensions-aniyomi bar', [], []],
+        ['foo https://warpdotsys.github.io/extensions-aniyomi bar', [], []],
       ] as const
     ).forEach(([body, sections, expectedUrls]) => {
       expect(urlsFromIssueBody(body, sections)).toStrictEqual(expectedUrls);
